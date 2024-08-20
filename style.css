@@ -37,3 +37,12 @@ body{
     border-radius: 10% 20% 30%;
 
 }
+
+.cabecalho-nav__link{
+
+    text-decoration:none ;
+    font-family: var(--texto-titulo) ;
+    font-size:24px ;
+    color:var(--azul-escuro) ;
+    margin-right:24px ;
+}
