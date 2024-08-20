@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=New+Amsterdam&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --preto: #353535ff;
+    --azul-esverdiado: #3c6e71ff;
+    --branco: #ffffffff;
+    --cinza: #d9d9d9ff;
+    --azul-escuro: #284b63ff;
+    --fonte-titulo:"New Amsterdam", sans-serif;
+    --fonte-texto:"Gupter", serif; 
+
+}
+
+body{
+    background-color: var(--azul);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+}
+
+.cabecalho{
+
+   background-color: var(--azul);
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   padding: 12px 6px 4px 7px; 
+}
+
+.cabecalho{
+    width: 15%;
+    border-radius: 10% 20% 30%;
+
+}
