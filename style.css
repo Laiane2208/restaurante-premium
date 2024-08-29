@@ -9,7 +9,7 @@
 :root{
     --preto: #353535ff;
     --azul-esverdiado: #3c6e71ff;
-    --branco: #ffffffff;
+    --branco: rgb(116, 108, 108);
     --cinza: #d9d9d9ff;
     --azul-escuro: rgb(38, 115, 160);
     --fonte-titulo:"New Amsterdam", sans-serif;
@@ -29,7 +29,7 @@ body{
 .cabecalho{
    background-color: var(--branco);
    display: flex;
-   justify-content: left;
+   justify-content: space-between;
    align-items: center;
    padding: 12px 6px 4px 7px; 
 }
@@ -43,7 +43,7 @@ body{
     text-decoration:none ;
     font-family: var(--texto-titulo) ;
     font-size:24px ;
-    color:var(--azul-escuro) ;
+    color:var(--azul) ;
     margin-right:24px ;
 }
 
@@ -92,7 +92,7 @@ align-items: flex-start;
 
 .principal-capa__botao{
 background: var(--azul-esverdiado);
-color: var(--cinza);
+color: var(--azul);
 border-radius: 5px;
 padding: lem;
 margin-top: lem;
@@ -102,6 +102,6 @@ text-decoration: none;
 .principal-capa__botao:hover{
     padding: 1.2em;
     background-color: var(--azul-esverdiado);
-    color: var(--branco);
+    color: var(--azul);
     transition: 0,5s;
 }
