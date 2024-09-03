@@ -7,18 +7,18 @@
 }
 
 :root{
-    --preto: #353535ff;
-    --azul-esverdiado: #3c6e71ff;
-    --branco: rgb(116, 108, 108);
-    --cinza: #d9d9d9ff;
-    --azul-escuro: rgb(38, 115, 160);
+    --preto: rgb(40, 109, 212);
+    --azul-esverdiado: rgb(85, 201, 255);
+    --branco: rgb(0, 0, 0);
+    --cinza: rgb(255, 255, 255);
+    --azul-escuro: rgb(13, 39, 94);
     --fonte-titulo:"New Amsterdam", sans-serif;
     --fonte-texto:"Gupter", serif; 
 }
 
 body{
-    background-color: var(--azul);
-    font-family: var(--fonte-texto);
+    background-color: var(--branco);
+    font-family: var(--fonte-titulo);
     font-size: 16px;
 }
 
@@ -35,7 +35,7 @@ body{
 }
 
 .cabecalho-img{
-    width: 15%;
+    width: 10%;
     border-radius: 10% 20% 30%;
 }
 
@@ -43,7 +43,7 @@ body{
     text-decoration:none ;
     font-family: var(--texto-titulo) ;
     font-size:24px ;
-    color:var(--azul) ;
+    color:var(--cinza) ;
     margin-right:24px ;
 }
 
@@ -54,9 +54,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 12px;
-  background-repeat: no-repeat;
-  margin-left: 12px;
-  padding: 24px 12px;
  }
 
  .principal-capa__conteudo{
@@ -68,20 +65,20 @@ gap: 12px;
 .principal-capa__titulo{
 font-family: var(--fonte-titulo);
 font-size: 32px;
-color: var(--azul-escuro);
+color: var(--azul-esverdiado);
 margin-bottom: 10px;
 }
 
  .principal-capa__texto{
 font-family: var(--fonte-titulo);
 font-size: 32px;
-color: #3f83bb;
+color: #ffffff;
  }
 
  .principal-capa__img{
 border-radius: 5% 5% 5% 5%;
-width: 50%;
-margin: 40px;
+width: 35%;
+margin: 60px;
 }
 
 .principal-capa__comboato{
@@ -97,11 +94,13 @@ border-radius: 5px;
 padding: lem;
 margin-top: lem;
 text-decoration: none;
+text-align: center;
+ width:35%;
 }
 
 .principal-capa__botao:hover{
     padding: 1.2em;
-    background-color: var(--azul-esverdiado);
-    color: var(--azul);
-    transition: 0,5s;
+    background-color: var(--preto);
+    color: var(--branco);
+    transition: 0.5s;
 }
