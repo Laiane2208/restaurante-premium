@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=New+Amsterdam&display=swap');
 
 
@@ -106,7 +107,7 @@ text-align: center;
 }
 
 .botao__secubdário{
-    background-color: var(--azul-esverdiado);
+    background-color: var(--cinza);
     text-align: center;
     width: 50%;
     border: 5px solid var(--preto);
@@ -140,7 +141,7 @@ text-align: center;
 .propaganda__texto{
     font-size: 16px;
     font-family: var(--fonte-texto);
-    color: var(--azul-esverdiado);
+    color: var(--cinza);
     margin-top: 1em;
 }
 
@@ -154,4 +155,36 @@ flex-direction: column;
     height: 90%;
     margin-left: 4em;
     border-radius: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 48px;
+    color: var(--amarelo);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item{
+    font-size: 24px;
+    color: var(--amarelo);
 }
