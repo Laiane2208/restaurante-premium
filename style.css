@@ -106,7 +106,7 @@ text-align: center;
     transition: 0.5s;
 }
 
-.botao__secubdário{
+.botao__secundário{
     background-color: var(--cinza);
     text-align: center;
     width: 50%;
@@ -128,7 +128,7 @@ text-align: center;
 }
 
 .propaganda__titulo{
-    color: var(--azul-esverdiado);
+    color: var(--cinza);
     font-size: 20px;
     font-family: var(--fonte-titulo);
 }
@@ -151,7 +151,7 @@ flex-direction: column;
 }
 
 .propaganda__img2{
-    width: 80%;
+    width: 45%;
     height: 90%;
     margin-left: 4em;
     border-radius: 1em;
@@ -165,16 +165,15 @@ flex-direction: column;
 
 
 
-
-
 .dispositivos{
     text-align: center;
+    margin-top: 60px;
 }
 
 .dispositivos__titulo{
     font-family: var(--fonte-titulo);
-    font-size: 48px;
-    color: var(--amarelo);
+    font-size: 28px;
+    color: var(--cinza);
 }
 
 .dispositivos__lista{
@@ -185,6 +184,35 @@ flex-direction: column;
 }
 
 .lista__item{
-    font-size: 24px;
-    color: var(--amarelo);
+    font-size: 20px;
+    color: var(--cinza);
+}
+
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.rodape__link{
+    color: var(--preto);
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 14px;
+}
+
+.rodape__texto{
+    margin: 1em 0;
+    color: var(--azul-esverdiado);
+    font-size: 18px;
+}
+
+.rodape__logo{
+    width: 10%;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
 }
