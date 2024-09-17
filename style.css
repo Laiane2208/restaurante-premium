@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Matemasie&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=New+Amsterdam&display=swap');
+
 
 *{
     margin: 0;
@@ -6,194 +8,204 @@
 }
 
 :root{
-    --azulescuro: rgb(5, 6, 102);
-    --azulforte: rgb(29,129,168);
-    --azulclaro: #00b4d8ff;
-    --azulmuitoclaro: rgb(255, 255, 255);
-    --azulceu: rgb(0, 0, 0); 
-    --fonte-titulo:"Matemasie", sans-serif;
-    --fonte-texto:"Josefin Sans", sans-serif;
-} 
+    --preto: rgb(40, 109, 212);
+    --azul-esverdiado: rgb(85, 201, 255);
+    --branco: rgb(0, 0, 0);
+    --cinza: rgb(255, 255, 255);
+    --azul-escuro: rgb(13, 39, 94);
+    --fonte-titulo:"New Amsterdam", sans-serif;
+    --fonte-texto:"Gupter", serif; 
+}
 
 body{
-    background-color: var(--azulescuro);
-    font-family: var(--fonte-texto);
+    background-color: var(--branco);
+    font-family: var(--fonte-titulo);
     font-size: 16px;
 }
 
 .titulo-principal{
     font-family: var(--fonte-titulo);
 }
+
 .cabecalho{
-    background-color: var(--azulforte);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px;
+   background-color: var(--branco);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 12px 6px 4px 7px; 
 }
+
 .cabecalho-img{
-    width: 15%;
-    border-radius: 200%;
+    width: 10%;
+    border-radius: 10% 20% 30%;
 }
-.cabecalho-nav_link{
-    text-decoration: none;
-    font-family: var(--fonte-titulo);
-    font-size: 24px;
-    color: var(--azulceu);
-    margin-right: 24px;
+
+.cabecalho-nav__link{
+    text-decoration:none ;
+    font-family: var(--texto-titulo) ;
+    font-size:24px ;
+    color:var(--cinza) ;
+    margin-right:24px ;
 }
+
 .principal-capa{
-    background-image: url(img/fundo.jpg);
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 12xp;
+background-image: url(img/fundo.jpg);
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 12px;
+ }
+
+ .principal-capa__conteudo{
+display: flex;
+flex-direction: column;
+gap: 12px;
+ }
+
+.principal-capa__titulo{
+font-family: var(--fonte-titulo);
+font-size: 32px;
+color: var(--azul-esverdiado);
+margin-bottom: 10px;
 }
-.principal-capa_conteudo{
-    display:flex;
-    flex-direction: column;
-    gap: 12px;
+
+ .principal-capa__texto{
+font-family: var(--fonte-titulo);
+font-size: 32px;
+color: #ffffff;
+ }
+
+ .principal-capa__img{
+border-radius: 5% 5% 5% 5%;
+width: 35%;
+margin: 60px;
 }
-.principal-capa_titulo{
-    font-family: var(--fonte-titulo);
-    font-size: 20px;
-    color: var(--azulforte);
-    margin-bottom: 10px;
-}
-.principal-capa_texto{
-    font-size: 20px;
-    margin-top: 2px;
-    color: rgb(255, 255, 255);
-}
-.principal-capa_img{
-    border-radius: 5% 5% 5% 5%;
-    width: 50%;
-    margin: 40px;
-}
+
 .principal-capa__comboato{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
 }
+
 .principal-capa__botao{
-    background-color: var(--azulforte);
-    color: var(--azulceu);
-    border-radius: 15px;
-    padding: 0.5em;
-    margin-top: 1em;
-    text-decoration: none;
-    text-align: center;
-    width: 20%;
+background: var(--azul-esverdiado);
+color: var(--azul);
+border-radius: 5px;
+padding: lem;
+margin-top: lem;
+text-decoration: none;
+text-align: center;
+ width:35%;
 }
+
 .principal-capa__botao:hover{
     padding: 1.2em;
-    background-color: var(--azulmuitoclaro);
-    color: var(--azulceu);
+    background-color: var(--preto);
+    color: var(--branco);
     transition: 0.5s;
 }
-.botao__secundario{
-    background-color:var(--azulforte);
+
+.botao__secundário{
+    background-color: var(--cinza);
     text-align: center;
     width: 50%;
-    border: 5px solid var(--azulceu)
+    border: 5px solid var(--preto);
 }
+
 .propaganda{
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
     justify-content: center;
-    align-items: center;
-    margin: 0 7em;
+    align-items: 0 7em;
 }
+
 .propaganda__img{
-   border: 40%;
-    width: 80%;
-    height: 90%;
-    border-radius: 1em ;
+    width: 40%;
+    height: 50%;
+    border-radius: 1em;
 }
+
 .propaganda__titulo{
-     color:var(--azulmuitoclaro);
-     font-size: 15px;
-     font-family: var(--fonte-texto);
+    color: var(--cinza);
+    font-size: 20px;
+    font-family: var(--fonte-titulo);
 }
+
 .propaganda__titulo:hover{
-    text-shadow: 4px 4px 20px var(--azulforte);
+    text-shadow: 4px 4px 20px var(--azul-escuro);
     transition: 0.7s;
 }
+
 .propaganda__texto{
     font-size: 16px;
-    font-family:var(--fonte-texto);
-    color:var(--azulclaro); 
-    margin-top: 1em; 
+    font-family: var(--fonte-texto);
+    color: var(--cinza);
+    margin-top: 1em;
 }
-.propaganda_2{
+
+.propaganda__{
     display: flex;
-    flex-direction: column;
+flex-direction: column;
 }
-.propaganda__img2{
-    width: 80%;
+
+.propaganda__img{
+    width: 45%;
     height: 90%;
     margin-left: 4em;
     border-radius: 1em;
 }
-.principal-capa__botao {
-    text-align: center;
-    border-radius: 15px;
-    width: 50%;
-    height: 50%
-    
-    
-}
+
+
 .dispositivos{
     text-align: center;
+    margin-top: 60px;
 }
+
 .dispositivos__titulo{
     font-family: var(--fonte-titulo);
-    font-size: 25px;
-    text-align: center;
-    color: var(--azulceu)
-    
+    font-size: 28px;
+    color: var(--cinza);
 }
+
 .dispositivos__lista{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    margin:24px;
-  
+    margin: 5em 0;
 }
-.lista__item{
-    font-size: 24px;
-    color: var(--azulceu);
-    text-align: center;
 
+.lista__item{
+    font-size: 20px;
+    color: var(--cinza);
 }
+
 .rodape__lista{
     display: flex;
     justify-content: center;
     list-style-type: none;
     margin-top: 1em;
-    text-align: center;
 }
-.lista__link a{
-    color: var(--azulceu);
-    list-style-type: none;
+
+.rodape__link{
+    color: var(--preto);
+    text-decoration: none;
     margin-left: 1em;
-    font-size: 10px;
-    text-align: center;
+    font-size: 14px;
 }
+
 .rodape__texto{
     margin: 1em 0;
-    color: var(--azulceu);
-    font-size: 10px;
+    color: var(--azul-esverdiado);
+    font-size: 18px;
 }
+
 .rodape__logo{
     width: 10%;
-    border-radius: 60px;
 }
+
 .rodape{
     text-align: center;
     margin: 5em 3em;
 }
-
-
